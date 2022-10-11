@@ -1,0 +1,135 @@
+
+
+td {
+	border:  2px solid #333;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	vertical-align:  middle;
+	font-family:  "Comic Sans MS", cursive, sans-serif;
+	font-size:  70px;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: collapse;
+	position: absolute;
+	left: 50%;
+	margin-left: -155px;
+	margin-top: 100px;
+	top: 50px;
+}
+
+table tr:first-child td {
+	border-top: 0;
+}
+
+table tr:last-child td {
+	border-bottom: 0;
+}
+
+table tr td:first-child {
+	border-left: 0;
+}
+
+table tr td:last-child {
+	border-right: 0;
+}
+
+.endgame {
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(205,133,63, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+.game {
+  display: None;
+}
+
+h1 {
+  font-family: Comic Sans MS;
+  font-size: 50px;
+  font-weight: bold;
+  padding-left: 50px;
+  color: blue;
+	margin-left: 34%;
+}
+
+img {
+	display: block;
+	width: 500px;
+	height: 350px;
+	margin-left: 35%;
+}
+
+h2 {
+	margin-left: 38%;
+}
+
+.input {
+  margin-left: 46%;
+  height: 20px;
+}
+
+.start {
+  font-size:17px;
+  font-family:Comic Sans MS;
+  width:78px;
+  height:40px;
+  border-width:1px;
+  color:#14396a;
+  border-color:#3866a3;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  text-shadow:inset 0px 1px 0px #7cacde;
+  background:linear-gradient(#63b8ee, #468ccf);
+	display: block;
+  margin-left: 49%;
+	margin-top: 30px;
+}
+
+.start:hover {
+  background: linear-gradient(#468ccf, #63b8ee);
+}
+
+
+.replay {
+  font-size:17px;
+  font-family:Comic Sans MS;
+  width:80px;
+  height:45px;
+  border-width:1px;
+  color:#14396a;
+  border-color:#3866a3;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 1px 0px 0px #bee2f9;
+  text-shadow:inset 0px 1px 0px #7cacde;
+  background:linear-gradient(#63b8ee, #468ccf);
+	display: block;
+  margin-left: 49%;
+	margin-top: 30px;
+	display: block;
+	margin-top: 500px;
+}
+
+.replay:hover {
+  background: linear-gradient(#468ccf, #63b8ee);
+}
